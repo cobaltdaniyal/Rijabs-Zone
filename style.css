@@ -1,0 +1,343 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+.logoimg{
+    width: 130px;
+}
+.back{
+    background-color: #ecedee;
+}
+.navbar{
+    background-color: white !important;
+}
+.logo-text{
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+}
+.nav-link{
+   font-weight: bold;
+}
+.nav-item{
+    font-size: 18px;
+    margin : 2px;
+    padding: 0px 8px 0px 8px;
+}
+.active a{
+    border-bottom: 3px solid white;
+}
+.nav-item :hover {
+    transition: 0.3s;
+    border-bottom: 3px solid #8b00dd;
+}
+.dropdown-menu{
+    border: none;
+}
+.dropdown-item:hover{
+    border: none;
+    transition: 0.5s;
+    color: white !important;
+    background-color: #8b00dd !important;
+}
+.navbar-collapse{
+    justify-content: flex-end
+}
+.box{
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    background-color:#8b00dd !important;
+    color: white !important;
+    font-family: 'Pacifico', cursive;
+    box-shadow: 2px 2px 5px #df55f2;
+}
+.quality{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.qualities{
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 15px;
+    display: flex;
+    color: white !important;
+    background-color:#8b00dd !important;
+    box-shadow: 2px 2px 5px #df55f2;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 30px 30px !important;
+}
+.fa-phone , .fa-certificate , .fa-bell-o , .fa-truck{
+    font-size: 22px;
+    margin-right: 20px;
+}
+.Eid-Special{
+    text-align: center;
+}
+.card{
+    padding: 15px;
+    width: 250px !important;
+    height: 400px !important;
+    text-align: center !important;
+    margin-top: 10px;
+    border: 1px solid #df55f2 !important;
+}
+.eid{
+    font-size: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #df55f2;
+    text-align: center;
+    font-family: 'Ceviche One', cursive;
+}
+.btn-primary{
+    border: 1px solid #df55f2;
+    background-color: #8b00dd !important;
+}
+.m{
+    margin-bottom: 50px;
+}
+.sec-cat{
+    cursor: pointer;
+    margin: 0px 10px 10px 5px ;
+    padding: 10px;  
+    background-color: #8b00dd !important ;
+    border: 1px solid #df55f2; 
+}
+.sec-cat > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white !important;
+    font-weight: bold !important;
+}
+.footer ,.right , .left{
+    padding: 1px;
+    width: 100% !important;
+    color: white;
+    font-size: 15px;
+    background-color: #18181f;
+}
+.right , .left > p {
+    padding: 12px 0px 0px 20px;
+}
+.left{
+    text-align: right;
+    margin: 0px 30px 0px 0px ;
+}
+.lil{
+    font-size: 26px !important;
+}
+.front-image{
+    margin: 10px;
+    text-align: center;
+}
+ /* form */
+ .connect{
+    color: #8b00dd;
+    font-family: 'Pacifico', cursive;
+    margin: 50px 0px 50px 20px ;
+}
+ .main-form{
+    margin: 20px 20px 10px 20px;
+}
+.links > a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.links{
+    padding: 10px;
+    text-align: center;
+}
+.down{
+    margin-bottom: 50px;
+}
+.blue{
+    color: blue !important;
+}
+.green{
+    color: green !important;
+}
+.red{
+    color: rgb(204, 40, 40) !important;
+}
+.lightblue{
+    color: #007bff !important;
+}
+.pink{
+    color: rgb(214, 59, 214) !important;
+}
+.pad{
+    margin: 20px;
+}
+.deliveryimage{
+    width: 400px;
+}
+.del{
+    margin-top: 10px;
+}
+.donetext{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .eid {
+      font-size: 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .card{
+      width: 150px !important;
+      height: 280px !important;
+      font-size: 12px;
+    }
+}
+@media only screen and (max-width: 600px) {
+     h5{
+      font-size: 14px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .btn-primary{
+        font-size: 9px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .small{
+        font-size: 11px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .logo-text{
+        font-size: 25px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .logoimg{
+        width: 70px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .box{
+        width: 380px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .box{
+        width: 300px !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .box{
+        width: 250px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .qualities{
+        width: 100px !important;
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .h4{
+        font-size: 5px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .box > h1{
+        font-size: 20px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .box > h1{
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    h6{
+        margin-top: 5px;
+        font-size: 8px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .fa-phone , .fa-certificate , .fa-bell-o , .fa-truck{
+        font-size: 12px !important;
+        margin-right: 13px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .deliveryimage{
+        width: 220px !important;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .deliveryimage{
+        width: 220px !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .deliveryimage{
+        width: 160px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .right > p{
+        font-size: 10px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .left > p{
+        font-size: 10px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .del > h1{
+        font-size: 22px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .del > h6{
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .donetext > h2{
+        font-size: 24px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .donetext > h2{
+        font-size: 20px !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .donetext > h2{
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .donetext > h2{
+        font-size: 13px !important;
+    }
+}
+
+
+
+
+/* 
+pink
+#df55f2
+
+purple
+#8b00dd 
+
+*/

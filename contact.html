@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rijab's Zone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand logo" href="./index.html">
+            <img class="logoimg" src="./images/Rijab's zone logo.png" width="130px" alt="logo">
+        </a>
+
+        <a class="nav-link logo-text" href="./index.html" alt="Rijab's Zone">
+            <span style="color: #8b00dd;">Rijab's</span>
+            <span style="color: #df55f2;">Zone</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+                <li class="nav-item active rounded-pill">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown rounded-pill">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Category
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item rounded-pill" href="./womens-clothing.html">Women's Clothing</a>
+                        <a class="dropdown-item rounded-pill" href="./mens-clothing.html">Men's Clothing</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item rounded-pill" href="./eid-special.html">Eid Special Discounts</a>
+                        <a class="dropdown-item rounded-pill" href="./flash-sale.html">Flash Sale</a>
+                    </div>
+                </li>
+                <li class="nav-item rounded-pill">
+                    <a class="nav-link" href="./contact.html">Contact <i class="fa fa-users" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item rounded-pill">
+                    <a class="nav-link" href="./account.html">Account <i class="fa fa-user" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item rounded-pill">
+                    <a class="nav-link" href="./cart.html">Cart <i class="fa fa-shopping-basket"
+                            aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <div class="back">
+        <hr>
+
+
+
+        <!-- landing page image -->
+        <div class="front-image">
+            <img src="./images/contact.jpg" width="100%" alt="">
+        </div>
+        <!-- landing page image end -->
+
+        <hr>
+
+
+        <div class="connect">
+            <h1>Comments / Queries / Complains : </h1>
+        </div>
+
+
+
+        <!-- form start -->
+
+        <div class="main-form">
+            <form action="./done.html">
+
+                <div class="form-row">
+                    <label for="inputEmail3" class="col-sm-2  col-form-label">Your Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" placeholder="Enter full name">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="inputEmail3" class="col-sm-2 pt-3 col-form-label">Email</label>
+                    <div class="col pt-3">
+                        <input type="email" class="form-control" placeholder="Enter email address" id="inputEmail3">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Contact No.</label>
+                    <div class="col">
+                        <input type="number" class="form-control" placeholder="eg: 0300-0000000">
+                    </div>
+                </div>
+
+                <fieldset class="form-group">
+                    <div class="row">
+                        <legend class="col-form-label col-sm-2 pt-3">Select Gender</legend>
+                        <div class="col-sm-10">
+                            <div class="form-check pt-3">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    Female
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="exampleFormControlFile1">Comment / Query</label>
+                        </div>
+                        <div class="col-sm-10">
+                            <textarea name="textarea" id="textarea" cols="40" rows="5" required
+                                placeholder="How Can We Help You ?"></textarea>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="exampleFormControlFile1">Share ScreenShot with Us </label>
+                        </div>
+                        <div class="col-sm-10">
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+
+            </form>
+
+        </div>
+        <!-- Form End -->
+
+        <hr>
+    </div>
+    <div class="connect">
+        <h1>Connect with us : </h1>
+    </div>
+
+    <div class="container down">
+        <div class="row">
+
+            <div class="col links">
+                <a href="https://www.facebook.com/Rijabs-Zone-108568704007250" class="fa fa-facebook-official blue"
+                    aria-hidden="true"></a>
+                <div class="blue">
+                    <h6>Facebook</h6>
+                </div>
+            </div>
+
+            <div class="col links">
+                <a href="https://www.instagram.com/rijabs_zone/" class="fa fa-instagram pink" aria-hidden="true"></a>
+                <div class="pink">
+                    <h6>Instagram</h6>
+                </div>
+            </div>
+
+            <div class="col links">
+                <a href="https://web.whatsapp.com/" class="fa fa-whatsapp green" aria-hidden="true"></a>
+                <div class="green">
+                    <h6>03222-366057</h6>
+                </div>
+            </div>
+
+            <div class="col links">
+                <a href="gmail.com" class="fa fa-envelope red" aria-hidden="true"></a>
+                <div class="red">
+                    <h6>rijabszone@gmail.com</h6>
+                </div>
+            </div>
+
+            <div class="col links">
+                <a href="" class="fa fa-twitter lightblue" aria-hidden="true"></a>
+                <div class="lightblue">
+                    <h6>Twitter</h6>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="back">
+        <hr>
+
+
+        <!-- Category Start -->
+        <div class=" container">
+            <div class="eid">
+                <p>Category</p>
+            </div>
+            <div class="row m">
+
+                <div class="col sec-cat badge badge-primary">
+                    <a href="./mens-clothing.html" class="small">Men's Fashion</a>
+                </div>
+
+                <div class="col sec-cat badge badge-primary">
+                    <a href="./womens-clothing.html" class="small">Women's Fashion</a>
+                </div>
+
+                <div class="col sec-cat badge badge-primary">
+                    <a href="./eid-special.html" class="small">Eid Special</a>
+                </div>
+
+                <div class="col sec-cat badge badge-primary">
+                    <a href="./flash-sale.html" class="small">Flash Sale</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- Category End -->
+
+
+
+
+
+        <!-- Footer Start -->
+        <Footer>
+            <div class="footer">
+                <div class="row">
+                    <div class=" col right">
+                        <p>Copyrights © 2020 Rijab's Zone.</p>
+                    </div>
+                    <div class="col left">
+                        <p>Developed by Daniyal Kaleem.</p>
+                    </div>
+                </div>
+            </div>
+        </Footer>
+        <!-- Footer End -->
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<form action="" class="form">
+
+    <div>
+        <label for="name">Full Name: </label>
+        <input required id="name" type="text" name="name" maxlength="40" placeholder="Enter Your Full Name">
+    </div>
+
+    <div>
+        <label for="email">Email Address: </label>
+        <input required id="email" type="email" name="email" maxlength="50"
+            placeholder="Enter Your E-mail Address">
+    </div>
+
+    <div>
+        <label for="phoneno">Contact No: </label>
+        <input required id="phoneno" type="number" name="phoneno" maxlength="50"
+            placeholder="Enter Your Contact number">
+    </div>
+
+    <div>
+        <label for="gender">Select Gender: </label>
+        Male <input type="radio" name="gen" required value="male">
+        Female <input type="radio" name="gen" required value="female">
+    </div>
+
+    <div>
+        <label for="comment" class="comment">Your Comment / Query :</label>
+        <textarea name="textarea" id="textarea" cols="40" rows="5" required
+            placeholder="How Can We Help You ?"></textarea> -->
+<!-- </div>
+    <div>
+        <textarea name="textarea" id="textarea" cols="40" rows="5" required
+            placeholder="How Can We Help You ?"></textarea>
+    </div>
+    
+    <div class="form-group">
+        <label for="exampleFormControlFile1">Example file input</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+
+</form> -->
